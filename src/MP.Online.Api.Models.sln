@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Map.Online.Api.Models", "Map.Online.Api.Models\Map.Online.Api.Models.csproj", "{D770BC14-59AC-4D87-B4B6-69892F0364AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP.Online.Api.Models", "Map.Online.Api.Models\MP.Online.Api.Models.csproj", "{D770BC14-59AC-4D87-B4B6-69892F0364AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{92575835-053E-45AD-926C-966EFDA3C547}"
 	ProjectSection(SolutionItems) = preProject

@@ -38,21 +38,77 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CHR.ServiceStack.Plugins, Version=1.0.0.108, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\CHR.ServiceStack.Plugins.1.0.0.108\lib\net452\CHR.ServiceStack.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="CHR.ServiceStack.Plugins.ServiceDefinition, Version=1.0.0.108, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\CHR.ServiceStack.Plugins.1.0.0.108\lib\net452\CHR.ServiceStack.Plugins.ServiceDefinition.dll</HintPath>
+    </Reference>
+    <Reference Include="CHR.ServiceStack.Plugins.ServiceModel, Version=1.0.0.108, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\CHR.ServiceStack.Plugins.1.0.0.108\lib\net452\CHR.ServiceStack.Plugins.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="CHRobinson.Shared.OperationContext, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\CHRobinson.Shared.OperationContext.1.0.0.4\lib\net40\CHRobinson.Shared.OperationContext.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\src\packages\MSTest.TestFramework.1.2.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\src\packages\MSTest.TestFramework.1.2.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="ServiceStack, Version=4.0.62.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\ServiceStack.4.0.62\lib\net40\ServiceStack.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Client, Version=4.0.62.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\ServiceStack.Client.4.0.62\lib\net40\ServiceStack.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common, Version=4.0.62.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\ServiceStack.Common.4.0.62\lib\net40\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces, Version=4.0.0.0, Culture=neutral, PublicKeyToken=e06fbc6124f57c43, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\ServiceStack.Interfaces.4.0.62\lib\portable-wp80+sl5+net40+win8+wpa81+monotouch+monoandroid+xamarin.ios10\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text, Version=4.0.62.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\ServiceStack.Text.4.0.62\lib\net40\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="Shared.DotNet.TestingWrappers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\Shared.DotNet.TestingWrappers.1.0.0.8\lib\net45\Shared.DotNet.TestingWrappers.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="AdminShould.cs" />
+    <Compile Include="AuthShould.cs" />
+    <Compile Include="CommonShould.cs" />
+    <Compile Include="FileEngineSHould.cs" />
+    <Compile Include="EnumShould.cs" />
+    <Compile Include="MasterDataShould.cs" />
+    <Compile Include="ResponseAdminShould.cs" />
+    <Compile Include="ResponseVendorShould.cs" />
+    <Compile Include="VendorShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Map.Online.Api.Models\MP.Online.Api.Models.csproj">
+      <Project>{D770BC14-59AC-4D87-B4B6-69892F0364AD}</Project>
+      <Name>MP.Online.Api.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestFiles\InvTest.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestFiles\POTest.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

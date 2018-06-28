@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Map.Online.Api.Models.Vendor
+namespace MP.Online.Api.Models.Vendor
 {
     public class VendorFTPDetails
     {

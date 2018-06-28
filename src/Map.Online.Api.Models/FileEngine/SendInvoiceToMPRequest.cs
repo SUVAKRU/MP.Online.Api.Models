@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Map.Online.Api.Models.FileEngine.Invoice
+namespace MP.Online.Api.Models.FileEngine.Invoice
 {
 
     // XML generation for Invoice

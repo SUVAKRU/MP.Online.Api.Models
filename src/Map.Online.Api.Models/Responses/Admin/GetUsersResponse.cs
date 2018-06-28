@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ServiceStack;
-using Map.Online.Api.Models.Admin;
+using MP.Online.Api.Models.Admin;
 
-namespace Map.Online.Api.Models.Responses
+namespace MP.Online.Api.Models.Responses
 {
    public class GetUsersResponse : IHasResponseStatus
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ServiceStack;
 
-namespace Map.Online.Api.Models.Responses.Admin
+namespace MP.Online.Api.Models.Responses.Admin
 {
     public class ForgotPasswordResponse : IHasResponseStatus
     {

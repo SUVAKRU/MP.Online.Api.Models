@@ -1,6 +1,6 @@
 ﻿using ServiceStack;
 
-namespace Map.Online.Api.Models.Common
+namespace MP.Online.Api.Models.Common
 {
    public  class BaseResponse : IHasResponseStatus
     {

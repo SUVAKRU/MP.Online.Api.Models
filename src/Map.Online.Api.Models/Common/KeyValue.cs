@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Map.Online.Api.Models.Common
+namespace MP.Online.Api.Models.Common
 {
     public class KeyValue
     {

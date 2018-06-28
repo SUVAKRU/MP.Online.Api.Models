@@ -1,0 +1,167 @@
+<InvoiceHeader>
+  <Invoice>
+    <AccountName>Holler and Dash 4007</AccountName>
+    <AccountAddress1>2725 South Blvd</AccountAddress1>
+    <AccountAddress2></AccountAddress2>
+    <AccountCity>Charlotte</AccountCity>
+    <AccountState>NC</AccountState>
+    <AccountZip>28209</AccountZip>
+    <AccountCountryCode />
+    <StoreNo>4007</StoreNo>
+    <CustomerCode>C8121708</CustomerCode>
+    <ConceptName>Holler and Dash</ConceptName>
+    <ParentGroup>HND</ParentGroup>
+    <ShortName>HND</ShortName>
+    <LocationId>4007</LocationId>
+    <VendorName>Senn Bros</VendorName>
+    <RollUp>HND</RollUp>
+    <InvoiceNo>D14031</InvoiceNo>
+    <VendorAddress1 />
+    <VendorAddress2></VendorAddress2>
+    <VendorCity />
+    <VendorState />
+    <VendorZip></VendorZip>
+    <VendorCountryCode>USA</VendorCountryCode>
+    <WCode>W1425766</WCode>
+    <ShipperCode>W56945143</ShipperCode>
+    <TCode>T5371974</TCode>
+    <PoHeaderId>6104676</PoHeaderId>
+    <PoNum></PoNum>
+    <DtCreated>2018-06-28T06:52:31.05-05:00</DtCreated>
+    <Amount>156.16</Amount>
+    <TotalTax>0</TotalTax>
+    <LoadNo />
+    <CustomerRefCode>D140314007</CustomerRefCode>
+    <OrderDate>0001-01-01T00:00:00-06:00</OrderDate>
+    <DeliveryDate>2018-06-28T00:00:00-05:00</DeliveryDate>
+    <ReqDeliveryDate>0001-01-01T00:00:00-06:00</ReqDeliveryDate>
+    <ConfArrDate>0001-01-01T00:00:00-06:00</ConfArrDate>
+    <ShipDate>0001-01-01T00:00:00-06:00</ShipDate>
+    <ReqShipDate>0001-01-01T00:00:00-06:00</ReqShipDate>
+    <ConfShipDate>0001-01-01T00:00:00-06:00</ConfShipDate>
+    <OrderStatusId>0</OrderStatusId>
+    <FreightStatusId>0</FreightStatusId>
+    <TermsId>0</TermsId>
+    <OrderTypeId>0</OrderTypeId>
+    <TotalQty>0</TotalQty>
+    <InvoiceDetails>
+      <ConceptItemNo>400001</ConceptItemNo>
+      <ConceptDescription>Avocado, 48 Ct</ConceptDescription>
+      <ConceptUnit>OUNCE</ConceptUnit>
+      <Price>42.9500</Price>
+      <PriceOrd>42.9500</PriceOrd>
+      <Qty>1.0000</Qty>
+      <QtyOrd>1.0000</QtyOrd>
+      <QtyShipped>0</QtyShipped>
+      <ConvFactor />
+      <Catch>False</Catch>
+      <Weight>0</Weight>
+      <OGtin>00095829654152</OGtin>
+      <SubbedItem>False</SubbedItem>
+      <PackSize>48 CT</PackSize>
+      <OrderNote />
+    </InvoiceDetails>
+    <InvoiceDetails>
+      <ConceptItemNo>400031</ConceptItemNo>
+      <ConceptDescription>Berry Strawberry, 8/1 Lb</ConceptDescription>
+      <ConceptUnit>OUNCE</ConceptUnit>
+      <Price>14.9500</Price>
+      <PriceOrd>14.9500</PriceOrd>
+      <Qty>1.0000</Qty>
+      <QtyOrd>1.0000</QtyOrd>
+      <QtyShipped>0</QtyShipped>
+      <ConvFactor />
+      <Catch>False</Catch>
+      <Weight>0</Weight>
+      <OGtin>00095829677991</OGtin>
+      <SubbedItem>False</SubbedItem>
+      <PackSize>8/1 LB</PackSize>
+      <OrderNote />
+    </InvoiceDetails>
+    <InvoiceDetails>
+      <ConceptItemNo>400014</ConceptItemNo>
+      <ConceptDescription>Herb, Cilantro, 1lb</ConceptDescription>
+      <ConceptUnit>OUNCE</ConceptUnit>
+      <Price>1.2300</Price>
+      <PriceOrd>1.2300</PriceOrd>
+      <Qty>2.0000</Qty>
+      <QtyOrd>2.0000</QtyOrd>
+      <QtyShipped>0</QtyShipped>
+      <ConvFactor />
+      <Catch>False</Catch>
+      <Weight>0</Weight>
+      <OGtin>00095829654312</OGtin>
+      <SubbedItem>False</SubbedItem>
+      <PackSize>1lb</PackSize>
+      <OrderNote />
+    </InvoiceDetails>
+    <InvoiceDetails>
+      <ConceptItemNo>400106</ConceptItemNo>
+      <ConceptDescription>Pineapple 6-7 CT</ConceptDescription>
+      <ConceptUnit>CTN</ConceptUnit>
+      <Price>15.9500</Price>
+      <PriceOrd>15.9500</PriceOrd>
+      <Qty>1.0000</Qty>
+      <QtyOrd>1.0000</QtyOrd>
+      <QtyShipped>0</QtyShipped>
+      <ConvFactor />
+      <Catch>False</Catch>
+      <Weight>0</Weight>
+      <OGtin>00095829297670</OGtin>
+      <SubbedItem>False</SubbedItem>
+      <PackSize />
+      <OrderNote />
+    </InvoiceDetails>
+    <InvoiceDetails>
+      <ConceptItemNo>400104</ConceptItemNo>
+      <ConceptDescription>Pinklady Apples, 88 ct</ConceptDescription>
+      <ConceptUnit>OUNCE</ConceptUnit>
+      <Price>40.9500</Price>
+      <PriceOrd>40.9500</PriceOrd>
+      <Qty>1.0000</Qty>
+      <QtyOrd>1.0000</QtyOrd>
+      <QtyShipped>0</QtyShipped>
+      <ConvFactor />
+      <Catch>False</Catch>
+      <Weight>0</Weight>
+      <OGtin>00095829548451</OGtin>
+      <SubbedItem>False</SubbedItem>
+      <PackSize />
+      <OrderNote />
+    </InvoiceDetails>
+    <InvoiceDetails>
+      <ConceptItemNo>400020</ConceptItemNo>
+      <ConceptDescription>Tomato Mature Green 5X6, 25 Lb</ConceptDescription>
+      <ConceptUnit>OUNCE</ConceptUnit>
+      <Price>21.9500</Price>
+      <PriceOrd>21.9500</PriceOrd>
+      <Qty>1.0000</Qty>
+      <QtyOrd>1.0000</QtyOrd>
+      <QtyShipped>0</QtyShipped>
+      <ConvFactor />
+      <Catch>False</Catch>
+      <Weight>0</Weight>
+      <OGtin>00095829201011</OGtin>
+      <SubbedItem>False</SubbedItem>
+      <PackSize>25 LB</PackSize>
+      <OrderNote />
+    </InvoiceDetails>
+    <InvoiceDetails>
+      <ConceptItemNo>400034</ConceptItemNo>
+      <ConceptDescription>Tomato Roma/Plum, 25 Lb</ConceptDescription>
+      <ConceptUnit>OUNCE</ConceptUnit>
+      <Price>16.9500</Price>
+      <PriceOrd>16.9500</PriceOrd>
+      <Qty>1.0000</Qty>
+      <QtyOrd>1.0000</QtyOrd>
+      <QtyShipped>0</QtyShipped>
+      <ConvFactor />
+      <Catch>False</Catch>
+      <Weight>0</Weight>
+      <OGtin>00095829187940</OGtin>
+      <SubbedItem>False</SubbedItem>
+      <PackSize />
+      <OrderNote />
+    </InvoiceDetails>
+  </Invoice>
+</InvoiceHeader>

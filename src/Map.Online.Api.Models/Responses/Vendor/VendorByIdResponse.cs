@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Map.Online.Api.Models.Vendor;
+﻿
 using ServiceStack;
 
-namespace Map.Online.Api.Models.Responses.Vendor
+namespace MP.Online.Api.Models.Responses.Vendor
 {
     public class VendorByIdResponse: IHasResponseStatus
     {

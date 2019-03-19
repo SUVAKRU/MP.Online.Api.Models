@@ -1,4 +1,4 @@
-﻿using MP.Online.Api.Models.MasterData;
+﻿using Map.Online.Api.Models.MasterData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ServiceStack;
 
-namespace MP.Online.Api.Models.Responses.Vendor
+namespace Map.Online.Api.Models.Responses.Vendor
 {
     public class EdiSegmentResponse:IHasResponseStatus
     {

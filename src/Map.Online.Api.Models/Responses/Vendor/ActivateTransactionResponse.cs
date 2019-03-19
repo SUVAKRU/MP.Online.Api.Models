@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ServiceStack;
 
-namespace MP.Online.Api.Models.Responses.Vendor
+namespace Map.Online.Api.Models.Responses.Vendor
 {
     public class ActivateTransactionResponse : IHasResponseStatus
     {

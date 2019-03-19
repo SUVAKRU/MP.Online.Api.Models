@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-namespace MP.Online.Api.Models.Auth0
+namespace Map.Online.Api.Models.Auth0
 {
    public class Auth0Model
     {

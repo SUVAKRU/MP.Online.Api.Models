@@ -1,11 +1,11 @@
-﻿using MP.Online.Api.Models.Vendor;
+﻿using Map.Online.Api.Models.Vendor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MP.Online.Api.Models.Vendor
+namespace Map.Online.Api.Models.Vendor
 {
     public class TransactionDetails
     {
@@ -65,7 +65,6 @@ namespace MP.Online.Api.Models.Vendor
         public string RelativeDateFormats { get; set; }
         public string FTPFolderName { get; set; }
         public int XMLTypeId { get; set; }
-
         public string SenderIdQualifier { get; set; }
         public string ReceiverIdQualifier { get; set; }
         public string SubElementSeparator{ get; set; }
@@ -73,11 +72,24 @@ namespace MP.Online.Api.Models.Vendor
         public string ReceiverCode { get; set; }
         public string Version { get; set; }
         public string SegmentSeparator { get; set; }
-
-        public int PONumberLength{ get; set; }
-        public bool IsPONumberFromRight{ get; set; }
         public string Preceder { get; set; }
+        public int FieldLengthtoDisplay { get; set; }
+        public bool IsFieldValueFromRight { get; set; }
+        public string FooterText { get; set; }
+        public decimal Position { get; set; }
+        public string  FieldName { get; set; }
 
+        public int StartPosition { get; set; }
+        public int width { get; set; }
+        public decimal HeaderInvoicePosition { get; set; }
+        public decimal DetailInvoicePosition { get; set; }
+
+        //vendor Details
+        public string FilePath { get; set; }
+        public string FileNameToMoveExternal { get; set; }
+
+        public int ISA13Number { get; set; }
+        public bool IsSplitRequired { get; set; }
     }
 
 }

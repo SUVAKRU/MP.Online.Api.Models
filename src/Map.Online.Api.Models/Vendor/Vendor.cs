@@ -1,11 +1,11 @@
-﻿using MP.Online.Api.Models.Common;
+﻿using Map.Online.Api.Models.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MP.Online.Api.Models.Vendor
+namespace Map.Online.Api.Models.Vendor
 {
     public class Vendor 
     {
@@ -27,8 +27,10 @@ namespace MP.Online.Api.Models.Vendor
         public string secondaryTechnicalEmailAddress { get; set; }
         public string primaryTechnicalPhone { get; set; }
         public string secondaryTechnicalPhone { get; set; }
+
         public int groupId { get; set; }
         public string groupName { get; set; }
+
         public bool isActive { get; set; }
         public int status { get; set; }
         public string statusValue { get; set; }
@@ -48,7 +50,14 @@ namespace MP.Online.Api.Models.Vendor
             set ;
         }
 
+
         public int POHeaderFileFormatId { get; set; }
+
         public int PODetailFileFormatId { get; set; }
+        public string FilePath { get; set; }
+        public string FileNameToMoveExternal { get; set; }
+        public int ISA13Number { get; set; }
+
+        public bool IsSplitRequired { get; set; }
     }
 }

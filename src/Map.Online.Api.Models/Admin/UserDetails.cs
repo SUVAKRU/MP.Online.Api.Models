@@ -1,11 +1,11 @@
-﻿using MP.Online.Api.Models.Common;
+﻿using Map.Online.Api.Models.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MP.Online.Api.Models.Admin
+namespace Map.Online.Api.Models.Admin
 {
     public class UserDetails : CreationInfo
     {

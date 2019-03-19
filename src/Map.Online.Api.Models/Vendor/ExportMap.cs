@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace MP.Online.Api.Models.Vendor
+namespace Map.Online.Api.Models.Vendor
 {
     public class ExportMap
     {
@@ -19,7 +15,30 @@ namespace MP.Online.Api.Models.Vendor
         public string SenderID { set; get; }
         public string ReceiverID { set; get; }
         public string CreatedDate { set; get; }
-
+        public string HeaderNameText { get; set; }
+        public string DetailNameText { get; set; }
+        public int QuantityFormatId { get; set; }
+        public string QuantityFormatType { get; set; }
+        public string HeaderLineItem { get; set; }
+        public string DetailLineItem { get; set; }
+        public string HeaderDateFormat { get; set; }
+        public string DetailDateFormat { get; set; }
+        public string POHeaderFileFormat { get; set; }
+        public string PODetailFileFormat { get; set; }
+        public string RelativeDateFormats { get; set; }
+        public string FTPFolderName { get; set; }
+        public int XMLTypeId { get; set; }
+        public string SenderIdQualifier { get; set; }
+        public string ReceiverIdQualifier { get; set; }
+        public string SubElementSeparator { get; set; }
+        public string SenderCode { get; set; }
+        public string ReceiverCode { get; set; }
+        public string Version { get; set; }
+        public string SegmentSeparator { get; set; }
+        public string Preceder { get; set; }
+        public int FieldLengthtoDisplay { get; set; }
+        public bool IsFieldValueFromRight { get; set; }
+        public string FooterText { get; set; }
         public List<ExportMapDetails> ExportMapDetailsCount { get; set; }
     }
 

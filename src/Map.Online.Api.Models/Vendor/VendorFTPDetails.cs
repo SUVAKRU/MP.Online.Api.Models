@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MP.Online.Api.Models.Vendor
+namespace Map.Online.Api.Models.Vendor
 {
     public class VendorFTPDetails
     {
@@ -13,9 +13,14 @@ namespace MP.Online.Api.Models.Vendor
         public string UserName { get; set; }
         public string Password { get; set; }
         public string CHRAccessedFTPPath { get; set; }
+
         public string CommsComment { get; set; }
         public int CreatedBy { get; set; }
+
         public int Status { get; set; }
+
         public int ModifiedBy { get; set; }
+
+        
     }
 }

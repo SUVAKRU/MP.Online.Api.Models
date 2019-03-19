@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MP.Online.Api.Models.Vendor
+namespace Map.Online.Api.Models.Vendor
 {
     public class TransactionMapDetails
     {
@@ -22,5 +22,12 @@ namespace MP.Online.Api.Models.Vendor
         public int ModifiedBy { get; set; }
         public string ModifiedDate { get; set; }
         public string FieldType { get; set; }
+
+        public int FieldLengthtoDisplay { get; set; }
+        public bool IsFieldValueFromRight { get; set; }
+
+        public int ISA13Number { get; set; }
+        public bool IsSplitRequired { get; set; }
+
     }
 }

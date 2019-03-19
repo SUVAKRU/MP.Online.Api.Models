@@ -1,7 +1,7 @@
 ﻿using System.Xml.Serialization;
 using System.Collections.Generic;
 
-namespace MP.Online.Api.Models.FileEngine.PO
+namespace Map.Online.Api.Models.FileEngine.PO
 {
 
     // Xml Generation for Purchase Order

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MP.Online.Api.Models.Enums
+namespace Map.Online.Api.Models.Enums
 {
   
     public enum FileStatus

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ServiceStack;
-using MP.Online.Api.Models.MasterData;
+using Map.Online.Api.Models.MasterData;
 
-namespace MP.Online.Api.Models.Responses.Vendor
+namespace Map.Online.Api.Models.Responses.Vendor
 {
     public class FileTypesResponse : IHasResponseStatus
     {

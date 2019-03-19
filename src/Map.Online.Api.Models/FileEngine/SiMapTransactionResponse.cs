@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MP.Online.Api.Models.FileEngine
+namespace Map.Online.Api.Models.FileEngine
 {
     public class SiMapTransactionResponse
     {
@@ -33,6 +33,8 @@ namespace MP.Online.Api.Models.FileEngine
         public string DataType { get; set; }
         public bool IsRightAligned { get; set; }
 
+        public int FieldLengthtoDisplay { get; set; }
+        public bool IsFieldValueFromRight { get; set; }
 
     }
 }

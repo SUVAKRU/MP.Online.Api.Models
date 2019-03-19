@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ServiceStack;
-using MP.Online.Api.Models.Admin;
+using Map.Online.Api.Models.Admin;
 
-namespace MP.Online.Api.Models.Responses
+namespace Map.Online.Api.Models.Responses
 {
    public class LoginResponse: IHasResponseStatus
     { 

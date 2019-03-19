@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MP.Online.Api.Models.Admin
+namespace Map.Online.Api.Models.Admin
 {
     public class ChangePasswordDto
     {

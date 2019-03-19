@@ -1,11 +1,11 @@
-﻿using MP.Online.Api.Models.MasterData;
+﻿using Map.Online.Api.Models.MasterData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MP.Online.Api.Models.Vendor
+namespace Map.Online.Api.Models.Vendor
 {
     public class VendorMasterData
     {

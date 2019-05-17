@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Map.Online.Api.Models.Vendor
 {
-    public class Vendor 
+    public class Vendor
     {
         public int vendorId { get; set; }
         public int vendorNumber { get; set; }
@@ -35,29 +35,18 @@ namespace Map.Online.Api.Models.Vendor
         public int status { get; set; }
         public string statusValue { get; set; }
         public bool isUnicodeReplaceRequired { get; set; }
-
-       
-        public int createdBy
-        {
-            get;
-            set;
-        }
-
-        public int updatedBy
-        {
-            get  ;
-
-            set ;
-        }
-
-
+        public int createdBy { get; set; }
+        public int updatedBy { get; set; }
         public int POHeaderFileFormatId { get; set; }
-
         public int PODetailFileFormatId { get; set; }
         public string FilePath { get; set; }
         public string FileNameToMoveExternal { get; set; }
         public int ISA13Number { get; set; }
-
         public bool IsSplitRequired { get; set; }
+        public bool IsVendor { get; set; }
+        public bool IsPdfRequired { get; set; }
+        public string CustomerNumber { get; set; }
+        public string CustomerFTPPath { get; set; }
+        public int CustomerDetailId { get; set; }
     }
 }

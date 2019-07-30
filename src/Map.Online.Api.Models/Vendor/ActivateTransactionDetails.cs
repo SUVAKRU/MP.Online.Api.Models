@@ -10,9 +10,9 @@ namespace Map.Online.Api.Models.Vendor
     {
         public int vendorId { get; set; } 
         public int transactionId { get; set; }
-
         public int status { get; set; }
-
+        public string CustomerNumber { get; set; }
+        public string CommonNumber { get; set; }
         public int createdBy { get; set; }
     }
 }

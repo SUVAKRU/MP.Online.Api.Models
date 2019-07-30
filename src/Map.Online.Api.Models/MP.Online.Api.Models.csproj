@@ -77,7 +77,10 @@
     <Compile Include="Common\CreationInfo.cs" />
     <Compile Include="Common\KeyValue.cs" />
     <Compile Include="Common\Stringhelpers.cs" />
+    <Compile Include="Customer\CustomerInvoice.cs" />
     <Compile Include="Enums\Enums.cs" />
+    <Compile Include="FileEngine\InvoiceTransactionResponse.cs" />
+    <Compile Include="FileEngine\MPJsonFieldPosition.cs" />
     <Compile Include="FileEngine\POFileConfiguration.cs" />
     <Compile Include="FileEngine\SiMapTransactionResponse.cs" />
     <Compile Include="FileEngine\TransactionMapDetailResponse.cs" />
@@ -126,6 +129,7 @@
     <Compile Include="Responses\Vendor\POOutputFileFormatResponse.cs" />
     <Compile Include="Responses\Vendor\RoleMasterResponse.cs" />
     <Compile Include="Responses\Vendor\SaveVendorResponse.cs" />
+    <Compile Include="Responses\Vendor\SendJsonResponse.cs" />
     <Compile Include="Responses\Vendor\SiMapTransactionDetailResponse.cs" />
     <Compile Include="Responses\Vendor\TransactionResponse.cs" />
     <Compile Include="Responses\Vendor\TransactionTypesResponse.cs" />
@@ -148,10 +152,12 @@
     <Compile Include="Vendor\Vendor.cs" />
     <Compile Include="Vendor\VendorDashboard.cs" />
     <Compile Include="Vendor\VendorFTPDetails.cs" />
+    <Compile Include="Vendor\VendorMapping.cs" />
     <Compile Include="Vendor\VendorMasterData.cs" />
     <Compile Include="Vendor\VerifyVendorDetails.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Map.Online.Api.Models.nuspec" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>

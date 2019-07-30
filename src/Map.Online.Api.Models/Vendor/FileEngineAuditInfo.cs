@@ -29,6 +29,8 @@ namespace Map.Online.Api.Models.Vendor
         public string LastFailedDate { get; set; }
         public string StatusCode { get; set; }
         public string IsActualFile { get; set; }
+        public string CustomerNumber { get; set; }
+        public string CommonNumber { get; set; }
 
         public List<BusinessComments> Comments { get; set; }
 

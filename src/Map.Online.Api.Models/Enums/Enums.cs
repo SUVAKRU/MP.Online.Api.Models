@@ -26,7 +26,9 @@ namespace Map.Online.Api.Models.Enums
     public enum TransactionType
     {
         Invoice=1,
-        PO=2
+        PO=2,
+        CustomerInvoice=3,
+        CustomerPO=4
     }
 
 

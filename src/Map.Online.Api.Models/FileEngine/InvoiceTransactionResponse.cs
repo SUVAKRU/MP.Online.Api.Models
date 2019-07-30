@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Map.Online.Api.Models.FileEngine
 {
-    public class InvoiceTransactionResponse
+    public class InvTransactionResponse
     {
         public int VendorInvTransDetailID { get; set; }
         public int TransactionID { get; set; }

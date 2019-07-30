@@ -39,6 +39,8 @@ namespace Map.Online.Api.Models.Vendor
         public int FieldLengthtoDisplay { get; set; }
         public bool IsFieldValueFromRight { get; set; }
         public string FooterText { get; set; }
+        public string CustomerNumber { get; set; }
+        public string CommonNumber { get; set; }
         public List<ExportMapDetails> ExportMapDetailsCount { get; set; }
     }
 

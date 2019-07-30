@@ -13,6 +13,7 @@ namespace Map.Online.Api.Models.MasterData
         public string POFileFormatDescription { get; set; }
         public string FileType { get; set; }
         public bool IsActive { get; set; }
+        public string ClientType { get; set; }
 
     }
 }

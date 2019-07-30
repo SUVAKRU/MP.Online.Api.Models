@@ -94,6 +94,9 @@ namespace Map.Online.Api.Models.Vendor
         public string ClientType { get; set; }
         public string CustomerFTPPath { get; set; }
         public string CustomerNumber { get; set; }
+        public string CustomerFileFormat { get; set; }
+        public string CustomerFileNaming { get; set; }
+        public string CustomerDateFormatType { get; set; }
     }
 
 }

@@ -52,8 +52,8 @@ namespace Map.Online.Api.Models.Vendor
         public string OutputXMLDataString { get; set; }
 
         public string VendorName { get; set; }
-        public  string HeaderNameText { get; set; }
-        public  string DetailNameText { get; set; }
+        public string HeaderNameText { get; set; }
+        public string DetailNameText { get; set; }
         public int QuantityFormatId { get; set; }
         public string QuantityFormatType { get; set; }
         public string HeaderLineItem { get; set; }
@@ -67,7 +67,7 @@ namespace Map.Online.Api.Models.Vendor
         public int XMLTypeId { get; set; }
         public string SenderIdQualifier { get; set; }
         public string ReceiverIdQualifier { get; set; }
-        public string SubElementSeparator{ get; set; }
+        public string SubElementSeparator { get; set; }
         public string SenderCode { get; set; }
         public string ReceiverCode { get; set; }
         public string Version { get; set; }
@@ -77,7 +77,7 @@ namespace Map.Online.Api.Models.Vendor
         public bool IsFieldValueFromRight { get; set; }
         public string FooterText { get; set; }
         public decimal Position { get; set; }
-        public string  FieldName { get; set; }
+        public string FieldName { get; set; }
 
         public int StartPosition { get; set; }
         public int width { get; set; }
@@ -97,6 +97,7 @@ namespace Map.Online.Api.Models.Vendor
         public string CustomerFileFormat { get; set; }
         public string CustomerFileNaming { get; set; }
         public string CustomerDateFormatType { get; set; }
+        public string PODropLocation { get; set; }
     }
 
 }

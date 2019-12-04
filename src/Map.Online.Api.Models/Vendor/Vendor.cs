@@ -53,5 +53,9 @@ namespace Map.Online.Api.Models.Vendor
         public string CustomerFileFormat { get; set; }
         public string CustomerNaming { get; set; }
         public string CFileNaming { get; set; }
+
+        public bool IsDefaultToInvoice { get; set; }
+        public string InvoiceFileName { get; set; }
+        public string POAckFileName { get; set; }
     }
 }

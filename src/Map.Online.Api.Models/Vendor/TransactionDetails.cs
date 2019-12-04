@@ -98,6 +98,10 @@ namespace Map.Online.Api.Models.Vendor
         public string CustomerFileNaming { get; set; }
         public string CustomerDateFormatType { get; set; }
         public string PODropLocation { get; set; }
+
+        public bool IsDefaultToInvoice { get; set; }
+        public string InvoiceFileName { get; set; }
+        public string POAckFileName { get; set; }
     }
 
 }

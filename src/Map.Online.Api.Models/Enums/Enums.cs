@@ -27,8 +27,10 @@ namespace Map.Online.Api.Models.Enums
     {
         Invoice=1,
         PO=2,
-        CustomerInvoice=3,
-        CustomerPO=4
+        POResponse=3,
+        CustomerInvoice=4,
+        CustomerPO=5,
+        CustomerInvoiceResponse=6
     }
 
 
@@ -106,6 +108,18 @@ namespace Map.Online.Api.Models.Enums
                     break;
                 case 2:
                     Result = TransactionType.PO.ToString();
+                    break;
+                case 3:
+                    Result = TransactionType.POResponse.ToString();
+                    break;
+                case 4:
+                    Result = TransactionType.CustomerInvoice.ToString();
+                    break;
+                case 5:
+                    Result = TransactionType.CustomerPO.ToString();
+                    break;
+                case 6:
+                    Result = TransactionType.CustomerInvoiceResponse.ToString();
                     break;
                 default:
                     Result = "";

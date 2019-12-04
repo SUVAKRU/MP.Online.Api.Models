@@ -7,6 +7,15 @@ using System.Threading.Tasks;
 
 namespace Map.Online.Api.Models.Customer
 {
+    public class CustomerInvoice
+    {
+        public Invoice Invoice { get; set; }
+    }
+    public class Invoice
+    {
+        public InvoiceHeader InvoiceHeader { get; set; }
+        public List<InvoiceDetail> InvoiceDetails { get; set; }
+    }
     public class InvoiceHeader
     {
         public string InvoiceId { get; set; }
@@ -17,7 +26,7 @@ namespace Map.Online.Api.Models.Customer
         public string VendorLocationNumber { get; set; }
         public string InvoiceNumber { get; set; }
         public string DeliveryDate { get; set; }
-        public Decimal Amount { get; set; }
+        public decimal Amount { get; set; }
         public string PurchaseOrderNumber { get; set; }
         public int TotalTax { get; set; }
         public bool Processed { get; set; }
@@ -52,7 +61,7 @@ namespace Map.Online.Api.Models.Customer
         public string FreightStatusId { get; set; }
         public string TermsId { get; set; }
         public string OrderTypeId { get; set; }
-        public int TotalMargin { get; set; }
+        public decimal TotalMargin { get; set; }
         public string ConfirmedShipDate { get; set; }
         public string ConfirmedArrivalDate { get; set; }
         public bool ExportError { get; set; }
@@ -72,8 +81,8 @@ namespace Map.Online.Api.Models.Customer
         public string ActualShipDate { get; set; }
         public string Currency { get; set; }
         public string ProductTypeId { get; set; }
-        public int TotalBuyAmount { get; set; }
-        public int TotalMarginAmount { get; set; }
+        public decimal TotalBuyAmount { get; set; }
+        public decimal TotalMarginAmount { get; set; }
         public Vendor Vendor { get; set; }
         public Concept Concept { get; set; }
         public Account Account { get; set; }
@@ -358,8 +367,8 @@ namespace Map.Online.Api.Models.Customer
         public string BranchId { get; set; }
         public string CoveringBranchId { get; set; }
         public bool UseDefaultFees { get; set; }
-        public int CMargin { get; set; }
-        public int CProdMargin { get; set; }
+        public decimal CMargin { get; set; }
+        public decimal CProdMargin { get; set; }
         public bool CognosProcess { get; set; }
         public bool FinProcess { get; set; }
         public string UserLogo { get; set; }
@@ -437,8 +446,8 @@ namespace Map.Online.Api.Models.Customer
         public string Description { get; set; }
         public string Unit { get; set; }
         public int Quantity { get; set; }
-        public int Price { get; set; }
-        public int PriceOrdered { get; set; }
+        public decimal Price { get; set; }
+        public decimal PriceOrdered { get; set; }
         public int QuantityOrdered { get; set; }
         public int QuantityShipped { get; set; }
         public int ConversionFactor { get; set; }
@@ -446,23 +455,23 @@ namespace Map.Online.Api.Models.Customer
         public int Weight { get; set; }
         public int ExtendedTax { get; set; }
         public string Ogtin { get; set; }
-        public int Margin { get; set; }
-        public int ProductionMargin { get; set; }
+        public decimal Margin { get; set; }
+        public decimal ProductionMargin { get; set; }
         public string LotNumber { get; set; }
         public string CreateDate { get; set; }
         public string MasterRecordId { get; set; }
         public bool Visible { get; set; }
         public bool SubbedItem { get; set; }
         public string PackSize { get; set; }
-        public int BuyPrice { get; set; }
+        public decimal BuyPrice { get; set; }
         public int NonSystemQuantityOrdered { get; set; }
-        public int ExtendedPrice { get; set; }
-        public int TotalMargin { get; set; }
+        public decimal ExtendedPrice { get; set; }
+        public decimal TotalMargin { get; set; }
         public List<Reference> References { get; set; }
         public string Brand { get; set; }
         public string Lot { get; set; }
-        public int TotalAmount { get; set; }
-        public int TotalBuyPrice { get; set; }
+        public decimal TotalAmount { get; set; }
+        public decimal TotalBuyPrice { get; set; }
         public string SKU { get; set; }
         public string UPC { get; set; }
         public string CHRUnit { get; set; }
@@ -508,9 +517,9 @@ namespace Map.Online.Api.Models.Customer
         public string PaymentTermsDiscountDueDays { get; set; }
         public string PaymentTermsNetDueDate { get; set; }
         public string PaymentTermsNetDueDays { get; set; }
-        public int PaymentTermsDiscountAmount { get; set; }
+        public decimal PaymentTermsDiscountAmount { get; set; }
         public string PaymentTermsDeferredDueDate { get; set; }
-        public int PaymentTermsDeferredAmountDue { get; set; }
+        public decimal PaymentTermsDeferredAmountDue { get; set; }
         public string PaymentTermsDescription { get; set; }
         public string PaymentMethodCode { get; set; }
         public string PaymentMethodId { get; set; }
@@ -582,7 +591,7 @@ namespace Map.Online.Api.Models.Customer
     public class Tax
     {
         public string TaxTypeCode { get; set; }
-        public int TaxAmount { get; set; }
+        public decimal TaxAmount { get; set; }
         public string TaxPercentQualifier { get; set; }
         public string TaxPercent { get; set; }
         public string JurisdictionQualifier { get; set; }
@@ -600,7 +609,7 @@ namespace Map.Online.Api.Models.Customer
     {
         public bool AllowChargeIndicator { get; set; }
         public string AllowChargeCode { get; set; }
-        public int AllowChargeAmount { get; set; }
+        public decimal AllowChargeAmount { get; set; }
         public string AllowChargePercent { get; set; }
         public string AllowChargeQuantity { get; set; }
         public string AllowChargeHandlingDescription { get; set; }
@@ -617,7 +626,7 @@ namespace Map.Online.Api.Models.Customer
     {
         public string MonetaryAmountId { get; set; }
         public string MonetaryAmountCode { get; set; }
-        public int MonetaryAmount { get; set; }
+        public decimal MonetaryAmount { get; set; }
         public string CreditDebitFlag { get; set; }
     }
 

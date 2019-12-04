@@ -12,5 +12,6 @@ namespace Map.Online.Api.Models.MasterData
         public string XMLType { get; set; }
         public int TransactionTypeId { get; set; }
         public bool IsActive { get; set; }
+        public string ClientType { get; set; }
     }
 }

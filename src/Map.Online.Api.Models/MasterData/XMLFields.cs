@@ -19,5 +19,8 @@ namespace Map.Online.Api.Models.MasterData
         public int DisplayOrder { get; set; }
         public string FieldType { get; set; }
         public int ParentId { get; set; }
+        public string ClientType { get; set; }
+        public bool IsAttribute { get; set; }
+        public bool IsXmlAttribute { get; set; }
     }
 }

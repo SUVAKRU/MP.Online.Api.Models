@@ -17,5 +17,6 @@ namespace Map.Online.Api.Models.MasterData
         public string DispalyName { get; set; }
         public string DataType { get; set; }
         public int DisplayOrder { get; set; }
+        public string ClientType { get; set; }
     }
 }

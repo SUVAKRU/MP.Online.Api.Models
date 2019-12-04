@@ -159,6 +159,7 @@
     <Compile Include="Vendor\VerifyVendorDetails.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Map.Online.Api.Models.nuspec" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>

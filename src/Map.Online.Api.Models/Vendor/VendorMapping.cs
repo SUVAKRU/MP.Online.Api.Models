@@ -12,6 +12,8 @@ namespace Map.Online.Api.Models.Vendor
         public string VendorCode { get; set; }
         public int VendorNumber { get; set; }
         public bool IsActive{ get; set; }
+        public string FTPPath { get; set; }
+        public char Type { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime ModifiedDate { get; set; }
         public string  CreatedBy { get; set; }

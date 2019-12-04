@@ -45,8 +45,17 @@ namespace Map.Online.Api.Models.Vendor
         public bool IsSplitRequired { get; set; }
         public bool IsVendor { get; set; }
         public bool IsPdfRequired { get; set; }
+        public string PODropLocation { get; set; }
+
         public string CustomerNumber { get; set; }
         public string CustomerFTPPath { get; set; }
         public int CustomerDetailId { get; set; }
+        public string CustomerFileFormat { get; set; }
+        public string CustomerNaming { get; set; }
+        public string CFileNaming { get; set; }
+
+        public bool IsDefaultToInvoice { get; set; }
+        public string InvoiceFileName { get; set; }
+        public string POAckFileName { get; set; }
     }
 }

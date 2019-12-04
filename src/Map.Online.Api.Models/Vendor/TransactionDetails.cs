@@ -1,4 +1,5 @@
-﻿using Map.Online.Api.Models.Vendor;
+﻿using Map.Online.Api.Models.Responses.Customer;
+using Map.Online.Api.Models.Vendor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,6 @@ namespace Map.Online.Api.Models.Vendor
 {
     public class TransactionDetails
     {
-
         public int TransactionID { get; set; }
         public string TransactionName { get; set; }
         public int VendorID { get; set; }
@@ -102,6 +102,6 @@ namespace Map.Online.Api.Models.Vendor
         public bool IsDefaultToInvoice { get; set; }
         public string InvoiceFileName { get; set; }
         public string POAckFileName { get; set; }
+        public List<RedropLocations> RedropLocations { get; set; }
     }
-
 }

@@ -9,6 +9,7 @@ namespace Map.Online.Api.Models.Responses.Customer
 {
     public class RedropLocations : IHasResponseStatus
     {
+        public int RedropLocationId { get; set; }
         public string customerNumber { get; set; }
         public string locationPath { get; set; }
         public bool isSourceDuplicate { get; set; }

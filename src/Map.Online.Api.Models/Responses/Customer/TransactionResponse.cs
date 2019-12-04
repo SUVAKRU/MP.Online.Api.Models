@@ -11,7 +11,7 @@ namespace Map.Online.Api.Models.Responses.Customer
     {
         public int TransactionId { get; set; }
         public string Message { get; set; }
-        public List<RedropLocations> DropLocations { get; set; }
+        public List<RedropLocations> RedropLocations { get; set; }
         public ResponseStatus ResponseStatus { get; set; }
     }
 }

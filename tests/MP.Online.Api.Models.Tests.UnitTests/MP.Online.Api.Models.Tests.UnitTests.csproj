@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\..\src\packages\MSTest.TestAdapter.1.2.0\build\net45\MSTest.TestAdapter.props" Condition="Exists('..\..\src\packages\MSTest.TestAdapter.1.2.0\build\net45\MSTest.TestAdapter.props')" />
   <PropertyGroup>
@@ -17,8 +17,7 @@
     <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
+    <NuGetPackageImportStamp></NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,14 +37,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CHR.ServiceStack.Plugins, Version=1.0.0.108, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\src\packages\CHR.ServiceStack.Plugins.1.0.0.108\lib\net452\CHR.ServiceStack.Plugins.dll</HintPath>
+    <Reference Include="CHR.ServiceStack.Plugins, Version=1.0.0.110, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\CHR.ServiceStack.Plugins.1.0.0.110\lib\net452\CHR.ServiceStack.Plugins.dll</HintPath>
     </Reference>
-    <Reference Include="CHR.ServiceStack.Plugins.ServiceDefinition, Version=1.0.0.108, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\src\packages\CHR.ServiceStack.Plugins.1.0.0.108\lib\net452\CHR.ServiceStack.Plugins.ServiceDefinition.dll</HintPath>
+    <Reference Include="CHR.ServiceStack.Plugins.ServiceDefinition, Version=1.0.0.110, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\CHR.ServiceStack.Plugins.1.0.0.110\lib\net452\CHR.ServiceStack.Plugins.ServiceDefinition.dll</HintPath>
     </Reference>
-    <Reference Include="CHR.ServiceStack.Plugins.ServiceModel, Version=1.0.0.108, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\src\packages\CHR.ServiceStack.Plugins.1.0.0.108\lib\net452\CHR.ServiceStack.Plugins.ServiceModel.dll</HintPath>
+    <Reference Include="CHR.ServiceStack.Plugins.ServiceModel, Version=1.0.0.110, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\src\packages\CHR.ServiceStack.Plugins.1.0.0.110\lib\net452\CHR.ServiceStack.Plugins.ServiceModel.dll</HintPath>
     </Reference>
     <Reference Include="CHRobinson.Shared.OperationContext, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\src\packages\CHRobinson.Shared.OperationContext.1.0.0.4\lib\net40\CHRobinson.Shared.OperationContext.dll</HintPath>

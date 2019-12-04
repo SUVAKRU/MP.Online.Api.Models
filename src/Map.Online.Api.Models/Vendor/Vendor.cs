@@ -1,4 +1,6 @@
-﻿using Map.Online.Api.Models.Common;
+﻿
+using Map.Online.Api.Models.Common;
+using Map.Online.Api.Models.Responses.Customer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,5 +59,6 @@ namespace Map.Online.Api.Models.Vendor
         public bool IsDefaultToInvoice { get; set; }
         public string InvoiceFileName { get; set; }
         public string POAckFileName { get; set; }
+        public List<RedropLocations> ReDropLocations { get; set; }
     }
 }

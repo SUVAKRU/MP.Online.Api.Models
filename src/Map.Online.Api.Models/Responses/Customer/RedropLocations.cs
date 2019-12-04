@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Map.Online.Api.Models.Responses.Customer
 {
-    public class DropLocations : IHasResponseStatus
+    public class RedropLocations : IHasResponseStatus
     {
         public string customerNumber { get; set; }
         public string locationPath { get; set; }
-        public bool duplicateSourceFile { get; set; }
+        public bool isSourceDuplicate { get; set; }
         public ResponseStatus ResponseStatus { get; set; }
     }
 }

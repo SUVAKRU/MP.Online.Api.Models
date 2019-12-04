@@ -107,7 +107,7 @@
     <Compile Include="Responses\Admin\GetUsersResponse.cs" />
     <Compile Include="Responses\Admin\LoginResponse.cs" />
     <Compile Include="Responses\Admin\UpdateUserResponse.cs" />
-    <Compile Include="Responses\Customer\DropLocations.cs" />
+    <Compile Include="Responses\Customer\RedropLocations.cs" />
     <Compile Include="Responses\Customer\TransactionResponse.cs" />
     <Compile Include="Responses\Vendor\ActivateTransactionResponse.cs" />
     <Compile Include="Responses\Vendor\ChangeStatusResponse.cs" />

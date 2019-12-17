@@ -1,23 +1,23 @@
 ﻿using Map.Online.Api.Models.Responses.Customer;
-//using Map.Online.Api.Models.Transaction;
+//using Map.Online.Api.Models.Vendor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Map.Online.Api.Models.Vendor
+namespace Map.Online.Api.Models.Customer
 {
     public class TransactionDetails
     {
         public int TransactionID { get; set; }
         public string TransactionName { get; set; }
-        public int VendorID { get; set; }
+        public int CustomerID { get; set; }
         public int TransactionTypeId { get; set; }
         public int FileTypeId { get; set; }
         public string FileName { get; set; }
         public string OutputFileName { get; set; }
-        public string GroupName { get; set; }
+        //public string GroupName { get; set; }
         public string Comments { get; set; }
         public string ApprovedDate { get; set; }
         public bool IsActiveInTest { get; set; }
@@ -26,7 +26,7 @@ namespace Map.Online.Api.Models.Vendor
         public int NumberOfHeaderRows { get; set; }
         public int InputDateFormatID { get; set; }
         public string InputDateFormat { get; set; }
-        public bool IsUnicodeReplaceRequired { get; set; }
+        //public bool IsUnicodeReplaceRequired { get; set; }
         public string EffectiveDate { get; set; }
         public int CreatedBy { get; set; }
         public string CreatedDate { get; set; }
@@ -36,7 +36,7 @@ namespace Map.Online.Api.Models.Vendor
         public byte[] HeaderContent { get; set; }
         public byte[] OutputXMLData { get; set; }
         public int Status { get; set; }
-        public string GUID { get; set; }
+        //public string GUID { get; set; }
         public string FieldSeparator { get; set; }
         public List<Map.Online.Api.Models.Transaction.Map> createMap { get; set; }
         public string StatusValue { get; set; }
@@ -51,7 +51,7 @@ namespace Map.Online.Api.Models.Vendor
         public string HeaderContentString { get; set; }
         public string OutputXMLDataString { get; set; }
 
-        public string VendorName { get; set; }
+        public string CustomerName { get; set; }
         public string HeaderNameText { get; set; }
         public string DetailNameText { get; set; }
         public int QuantityFormatId { get; set; }
@@ -97,7 +97,7 @@ namespace Map.Online.Api.Models.Vendor
         public string CustomerFileFormat { get; set; }
         public string CustomerFileNaming { get; set; }
         public string CustomerDateFormatType { get; set; }
-        public string PODropLocation { get; set; }
+        public string InvoiceDropLocation { get; set; }
         public bool IsDefaultToInvoice { get; set; }
         public string InvoiceFileName { get; set; }
         public string POAckFileName { get; set; }

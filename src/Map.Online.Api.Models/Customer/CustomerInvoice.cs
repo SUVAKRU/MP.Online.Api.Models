@@ -28,7 +28,7 @@ namespace Map.Online.Api.Models.Customer
         public string DeliveryDate { get; set; }
         public decimal Amount { get; set; }
         public string PurchaseOrderNumber { get; set; }
-        public int TotalTax { get; set; }
+        public decimal TotalTax { get; set; }
         public bool Processed { get; set; }
         public string DateProcessed { get; set; }
         public bool EDI_856Sent { get; set; }
@@ -51,7 +51,7 @@ namespace Map.Online.Api.Models.Customer
         public bool Fin_Edi810Sent { get; set; }
         public string Fin_Edi810SentDate { get; set; }
         public bool NonSystemInv { get; set; }
-        public int TotalQuantity { get; set; }
+        public decimal TotalQuantity { get; set; }
         public string DateCreated { get; set; }
         public string OrderDate { get; set; }
         public string ShipDate { get; set; }
@@ -445,15 +445,15 @@ namespace Map.Online.Api.Models.Customer
         public string ItemNumber { get; set; }
         public string Description { get; set; }
         public string Unit { get; set; }
-        public int Quantity { get; set; }
+        public decimal Quantity { get; set; }
         public decimal Price { get; set; }
         public decimal PriceOrdered { get; set; }
-        public int QuantityOrdered { get; set; }
-        public int QuantityShipped { get; set; }
-        public int ConversionFactor { get; set; }
+        public decimal QuantityOrdered { get; set; }
+        public decimal QuantityShipped { get; set; }
+        public string ConversionFactor { get; set; }
         public bool Catch { get; set; }
-        public int Weight { get; set; }
-        public int ExtendedTax { get; set; }
+        public decimal Weight { get; set; }
+        public decimal ExtendedTax { get; set; }
         public string Ogtin { get; set; }
         public decimal Margin { get; set; }
         public decimal ProductionMargin { get; set; }
@@ -464,7 +464,7 @@ namespace Map.Online.Api.Models.Customer
         public bool SubbedItem { get; set; }
         public string PackSize { get; set; }
         public decimal BuyPrice { get; set; }
-        public int NonSystemQuantityOrdered { get; set; }
+        public decimal NonSystemQuantityOrdered { get; set; }
         public decimal ExtendedPrice { get; set; }
         public decimal TotalMargin { get; set; }
         public List<Reference> References { get; set; }
@@ -512,7 +512,7 @@ namespace Map.Online.Api.Models.Customer
     {
         public string PaymentTermType { get; set; }
         public string PaymentTermsBasisDateCode { get; set; }
-        public int PaymentTermsDiscountPercentage { get; set; }
+        public decimal PaymentTermsDiscountPercentage { get; set; }
         public string PaymentTermsDiscountDate { get; set; }
         public string PaymentTermsDiscountDueDays { get; set; }
         public string PaymentTermsNetDueDate { get; set; }
@@ -560,9 +560,9 @@ namespace Map.Online.Api.Models.Customer
         public string RangeMinimum { get; set; }
         public string RangeMaximum { get; set; }
         public string PackingMaterial { get; set; }
-        public int PackagingWeight { get; set; }
+        public decimal PackagingWeight { get; set; }
         public string PackagingWeightUOM { get; set; }
-        public int Volume { get; set; }
+        public decimal Volume { get; set; }
         public string VolumeUOM { get; set; }
     }
 

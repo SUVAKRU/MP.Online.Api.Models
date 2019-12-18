@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Map.Online.Api.Models.Customer
 {
-    public class Customer
+    public class CustomerDetails
     {
         public int CustomerId { get; set; }
         public string CustomerNumber { get; set; }

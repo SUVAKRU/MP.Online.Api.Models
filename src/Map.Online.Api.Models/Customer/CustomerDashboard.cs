@@ -11,6 +11,6 @@ namespace Map.Online.Api.Models.Customer
         public int InProgress { get; set; }
         public int Approved { get; set; }
         public int Rejected { get; set; }
-        public List<Customer> CustomerList { get; set; }
+        public List<CustomerDetails> CustomerList { get; set; }
     }
 }

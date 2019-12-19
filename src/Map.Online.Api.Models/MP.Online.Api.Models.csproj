@@ -167,7 +167,7 @@
     <Compile Include="Transaction\FileContent.cs" />
     <Compile Include="Transaction\FileEngineAuditInfo.cs" />
     <Compile Include="Transaction\Map.cs" />
-    <Compile Include="Transaction\NewTransaction.cs" />
+    <Compile Include="Vendor\NewTransaction.cs" />
     <Compile Include="Vendor\TransactionDetails.cs" />
     <Compile Include="Vendor\TransactionMapDetails.cs" />
     <Compile Include="Vendor\Vendor.cs" />

@@ -1,4 +1,4 @@
-﻿using Map.Online.Api.Models.Vendor;
+﻿using Map.Online.Api.Models.Transaction;
 using ServiceStack;
 using System;
 using System.Collections.Generic;

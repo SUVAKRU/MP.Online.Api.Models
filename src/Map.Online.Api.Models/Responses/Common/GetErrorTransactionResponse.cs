@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ServiceStack;
-using Map.Online.Api.Models.Vendor;
+using Map.Online.Api.Models.Transaction;
 
 namespace Map.Online.Api.Models.Responses
 {

@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Map.Online.Api.Models.Responses
+namespace Map.Online.Api.Models.Responses.Customer
 {
-    public class GetCurrentMapDetailsResponse : IHasResponseStatus
+    public class DashboardResponse : IHasResponseStatus
     {
-        public List<TransactionMapDetails> TransactionMapDetailsList { get; set; }
+        public DashBoard dashBoard { get; set; }
         public string Message { get; set; }
         public ResponseStatus ResponseStatus { get; set; }
     }

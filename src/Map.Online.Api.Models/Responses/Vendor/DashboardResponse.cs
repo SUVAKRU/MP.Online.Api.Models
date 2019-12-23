@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Map.Online.Api.Models.Responses
+namespace Map.Online.Api.Models.Responses.Vendor
 {
     public class DashboardResponse : IHasResponseStatus
     {

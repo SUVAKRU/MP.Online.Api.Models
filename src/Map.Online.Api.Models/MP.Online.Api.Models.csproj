@@ -120,6 +120,7 @@
     <Compile Include="Responses\Admin\LoginResponse.cs" />
     <Compile Include="Responses\Admin\UpdateUserResponse.cs" />
     <Compile Include="Responses\Customer\CustomerTransactionResponse.cs" />
+    <Compile Include="Responses\Customer\DashboardResponse.cs" />
     <Compile Include="Responses\Customer\RedropLocations.cs" />
     <Compile Include="Responses\Customer\SaveCustomerResponse.cs" />
     <Compile Include="Responses\Customer\SendCustomerJsonResponse.cs" />
@@ -129,7 +130,7 @@
     <Compile Include="Responses\Common\ActivateTransactionResponse.cs" />
     <Compile Include="Responses\Common\ChangeStatusResponse.cs" />
     <Compile Include="Responses\Common\CreateTransactionResponse.cs" />
-    <Compile Include="Responses\Common\DashboardResponse.cs" />
+    <Compile Include="Responses\Vendor\DashboardResponse.cs" />
     <Compile Include="Responses\Common\DateFormatsResponse.cs" />
     <Compile Include="Responses\Common\EdiSegmentResponse.cs" />
     <Compile Include="Responses\Common\ErrorTransactionResponse.cs" />

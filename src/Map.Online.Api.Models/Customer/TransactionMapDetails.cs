@@ -29,5 +29,7 @@ namespace Map.Online.Api.Models.Customer
         public int ISA13Number { get; set; }
         public bool IsSplitRequired { get; set; }
 
+        public string HeaderText { get; set; }
+
     }
 }

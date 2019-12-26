@@ -13,7 +13,7 @@ namespace Map.Online.Api.Models.Customer
         public int CustomerId { get; set; }
         public string CustomerNumber { get; set; }
         public string CustomerName { get; set; }
-        public string companyName { get; set; }
+        public string FTPPath { get; set; }
         public string primaryContactName { get; set; }
         public string supportContact { get; set; }
         public string emailAddress { get; set; }

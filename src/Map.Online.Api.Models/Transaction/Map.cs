@@ -27,5 +27,6 @@ namespace Map.Online.Api.Models.Transaction
         public string XMLSegmentName { get; set; }
         public int Index{ get; set; }
         public int TransactionMapDetailId { get; set; }
+        public string HeaderText { get; set; }
     }
 }

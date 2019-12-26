@@ -121,6 +121,7 @@
     <Compile Include="Responses\Admin\UpdateUserResponse.cs" />
     <Compile Include="Responses\Customer\CustomerTransactionResponse.cs" />
     <Compile Include="Responses\Customer\DashboardResponse.cs" />
+    <Compile Include="Responses\Customer\GetCustomerCurrentMapDetailsResponse.cs" />
     <Compile Include="Responses\Customer\RedropLocations.cs" />
     <Compile Include="Responses\Customer\SaveCustomerResponse.cs" />
     <Compile Include="Responses\Customer\SendCustomerJsonResponse.cs" />
@@ -141,8 +142,8 @@
     <Compile Include="Responses\Customer\GetCustomerFTPDetailResponse.cs" />
     <Compile Include="Responses\Customer\GetCustomerResponse.cs" />
     <Compile Include="Responses\Customer\GetVerifyCustomerResponse.cs" />
-    <Compile Include="Responses\Common\GetCurrentMapDetailsResponse.cs" />
     <Compile Include="Responses\Common\GetErrorTransactionResponse.cs" />
+    <Compile Include="Responses\Vendor\GetCurrentMapDetailsResponse.cs" />
     <Compile Include="Responses\Vendor\GetVendorFTPDetailResponse.cs" />
     <Compile Include="Responses\Vendor\GetVendorResponse.cs" />
     <Compile Include="Responses\Vendor\GetVerifyVendorResponse.cs" />

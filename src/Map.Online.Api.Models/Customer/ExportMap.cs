@@ -56,6 +56,7 @@ namespace Map.Online.Api.Models.Customer
         public string FieldID { set; get; }
         public string SegmentName { get; set; }
         public string XMLSegmentName { get; set; }
+        public string HeaderText { get; set; }
     }
 }
 

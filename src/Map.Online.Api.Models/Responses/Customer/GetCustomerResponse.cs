@@ -1,4 +1,4 @@
-﻿using Map.Online.Api.Models.Vendor;
+﻿using Map.Online.Api.Models.Customer;
 using ServiceStack;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace Map.Online.Api.Models.Responses.Customer
 {
     public class GetCustomerResponse : IHasResponseStatus
     {
-        public VendorDashboard vendorDashboard { get; set; }
+        public CustomerDashboard CustomerDashboard { get; set; }
         public string Message { get; set; }
         public ResponseStatus ResponseStatus { get; set; }
     }

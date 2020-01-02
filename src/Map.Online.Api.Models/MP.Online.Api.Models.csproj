@@ -131,6 +131,7 @@
     <Compile Include="Responses\Common\ActivateTransactionResponse.cs" />
     <Compile Include="Responses\Common\ChangeStatusResponse.cs" />
     <Compile Include="Responses\Common\CreateTransactionResponse.cs" />
+    <Compile Include="Responses\Customer\VerifyCustomerNumberResponse.cs" />
     <Compile Include="Responses\Vendor\DashboardResponse.cs" />
     <Compile Include="Responses\Common\DateFormatsResponse.cs" />
     <Compile Include="Responses\Common\EdiSegmentResponse.cs" />
@@ -160,6 +161,7 @@
     <Compile Include="Responses\Vendor\UpdateVendorResponse.cs" />
     <Compile Include="Responses\Vendor\VendorByIdResponse.cs" />
     <Compile Include="Responses\Vendor\VendorFTPDetailResponse.cs" />
+    <Compile Include="Responses\Vendor\VerifyVendorNumberResponse.cs" />
     <Compile Include="Vendor\ActivateTransactionDetails.cs" />
     <Compile Include="Vendor\AdminApproval.cs" />
     <Compile Include="Vendor\CommSFTPDetail.cs" />

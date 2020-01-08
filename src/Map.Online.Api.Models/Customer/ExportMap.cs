@@ -11,6 +11,7 @@ namespace Map.Online.Api.Models.Customer
         public string InputDateformat { set; get; }
         public string InputFileType { set; get; }
         public string NoofHeaderRows { set; get; }
+        public int NumberOfFooterRows { get; set; }
         public string RowsToIgnore { set; get; }
         public string SenderID { set; get; }
         public string ReceiverID { set; get; }

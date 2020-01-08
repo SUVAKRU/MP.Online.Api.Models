@@ -1,4 +1,5 @@
-﻿using Map.Online.Api.Models.Responses.Customer;
+﻿
+using Map.Online.Api.Models.Responses.Customer;
 //using Map.Online.Api.Models.Vendor;
 using System;
 using System.Collections.Generic;
@@ -103,5 +104,6 @@ namespace Map.Online.Api.Models.Customer
         public string POAckFileName { get; set; }
         public List<RedropLocations> RedropLocations { get; set; }
         public string CustomerHeaderText { get; set; }
+        public int NumberOfFooterRows { get; set; }
     }
 }

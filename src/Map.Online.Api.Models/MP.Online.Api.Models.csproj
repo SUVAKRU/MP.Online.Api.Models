@@ -76,10 +76,12 @@
     <Compile Include="Common\BaseResponse.cs" />
     <Compile Include="Common\CreationInfo.cs" />
     <Compile Include="Common\KeyValue.cs" />
+    <Compile Include="Common\OKTAKeys.cs" />
     <Compile Include="Common\Stringhelpers.cs" />
     <Compile Include="Customer\ActivateTransactionDetails.cs" />
     <Compile Include="Customer\AdminApproval.cs" />
     <Compile Include="Customer\CommSFTPDetail.cs" />
+    <Compile Include="Customer\CustomerBatchingDetail.cs" />
     <Compile Include="Customer\CustomerInvoice.cs" />
     <Compile Include="Customer\DashBoard.cs" />
     <Compile Include="Customer\ExportMap.cs" />

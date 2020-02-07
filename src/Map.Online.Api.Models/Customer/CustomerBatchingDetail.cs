@@ -10,11 +10,20 @@ namespace Map.Online.Api.Models.Customer
     {
         public int CustomerBatchingDetailId { get; set; }
         public int CustomerId { get; set; }
+        public string customerName { get; set; }
         public char OccurrenceType { get; set; }
-        public bool IsDay { get; set; }
-        public DateTime Date { get; set; }
-        public string CustomerPickPath { get; set; }
+        public string OcurrenceTypeValue { get; set; }
+        public string Value { get; set; }
+        public string StartDate { get; set; }
+        public string CustomerBatchingPath { get; set; }
+        public string CustomerInvoicePath { get; set; }
+        public string FileType { get; set; }
+        public string CustomerNumer { get; set; }
         public bool IsActive { get; set; }
+        public bool HasHeader { get; set; }
+        public bool IsRepeatedHeader { get; set; }
+        public string Times { get; set; }
+        public string Days { get; set; }
         public int CreatedBy { get; set; }
         public DateTime CreatedDate { get; set; }
         public List<BatchTimingDetail> BatchTimingDetails { get; set; }

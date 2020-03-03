@@ -30,7 +30,8 @@ namespace Map.Online.Api.Models.Enums
         POResponse=3,
         CustomerInvoice=4,
         CustomerPO=5,
-        CustomerInvoiceResponse=6
+        CustomerInvoiceResponse=6,
+        POAcknowledgment= 7
     }
 
 

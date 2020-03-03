@@ -45,6 +45,7 @@ namespace Map.Online.Api.Models.Customer
         public bool IsDefaultToInvoice { get; set; }
         public string InvoiceFileName { get; set; }
         public string POAckFileName { get; set; }
+        public bool Is997Required { get; set; }
         public List<RedropLocations> ReDropLocations { get; set; }
     }
 }

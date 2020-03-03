@@ -7,6 +7,7 @@ namespace Map.Online.Api.Models.Customer
         public int CustomerId { set; get; }
         //public string VendorName { set; get; }
         public string TransactionName { set; get; }
+
         public string TransactionType { set; get; }
         public string InputDateformat { set; get; }
         public string InputFileType { set; get; }
@@ -42,6 +43,7 @@ namespace Map.Online.Api.Models.Customer
         public string FooterText { get; set; }
         public string CustomerNumber { get; set; }
         public string CommonNumber { get; set; }
+        public string CustomerName { get; set; }
         public List<ExportMapDetails> ExportMapDetailsCount { get; set; }
     }
 

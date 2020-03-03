@@ -105,5 +105,6 @@ namespace Map.Online.Api.Models.Customer
         public List<RedropLocations> RedropLocations { get; set; }
         public string CustomerHeaderText { get; set; }
         public int NumberOfFooterRows { get; set; }
+        public bool Is997Required { get; set; }
     }
 }

@@ -91,6 +91,7 @@ namespace Map.Online.Api.Models.Vendor
         public int ISA13Number { get; set; }
         public bool IsSplitRequired { get; set; }
 
+        public bool IsEDIInlineDocCheck { get; set; }
         public string ClientType { get; set; }
         public string CustomerFTPPath { get; set; }
         public string CustomerNumber { get; set; }

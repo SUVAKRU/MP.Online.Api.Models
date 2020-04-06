@@ -60,5 +60,7 @@ namespace Map.Online.Api.Models.Vendor
         public string InvoiceFileName { get; set; }
         public string POAckFileName { get; set; }
         public List<RedropLocations> ReDropLocations { get; set; }
+
+        public bool IsEDIInlineDocCheck { get; set; }
     }
 }

@@ -76,10 +76,12 @@
     <Compile Include="Common\BaseResponse.cs" />
     <Compile Include="Common\CreationInfo.cs" />
     <Compile Include="Common\KeyValue.cs" />
+    <Compile Include="Common\OKTAKeys.cs" />
     <Compile Include="Common\Stringhelpers.cs" />
     <Compile Include="Customer\ActivateTransactionDetails.cs" />
     <Compile Include="Customer\AdminApproval.cs" />
     <Compile Include="Customer\CommSFTPDetail.cs" />
+    <Compile Include="Customer\CustomerBatchingDetail.cs" />
     <Compile Include="Customer\CustomerInvoice.cs" />
     <Compile Include="Customer\DashBoard.cs" />
     <Compile Include="Customer\ExportMap.cs" />
@@ -131,6 +133,7 @@
     <Compile Include="Responses\Common\ActivateTransactionResponse.cs" />
     <Compile Include="Responses\Common\ChangeStatusResponse.cs" />
     <Compile Include="Responses\Common\CreateTransactionResponse.cs" />
+    <Compile Include="Responses\Customer\VerifyCustomerNumberResponse.cs" />
     <Compile Include="Responses\Vendor\DashboardResponse.cs" />
     <Compile Include="Responses\Common\DateFormatsResponse.cs" />
     <Compile Include="Responses\Common\EdiSegmentResponse.cs" />
@@ -160,6 +163,7 @@
     <Compile Include="Responses\Vendor\UpdateVendorResponse.cs" />
     <Compile Include="Responses\Vendor\VendorByIdResponse.cs" />
     <Compile Include="Responses\Vendor\VendorFTPDetailResponse.cs" />
+    <Compile Include="Responses\Vendor\VerifyVendorNumberResponse.cs" />
     <Compile Include="Vendor\ActivateTransactionDetails.cs" />
     <Compile Include="Vendor\AdminApproval.cs" />
     <Compile Include="Vendor\CommSFTPDetail.cs" />

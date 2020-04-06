@@ -35,6 +35,7 @@ namespace Map.Online.Api.Models.FileEngine
 
         public int FieldLengthtoDisplay { get; set; }
         public bool IsFieldValueFromRight { get; set; }
+        public string HeaderText { get; set; }
 
     }
 }

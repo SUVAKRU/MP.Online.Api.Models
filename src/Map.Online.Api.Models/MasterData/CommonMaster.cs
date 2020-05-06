@@ -19,5 +19,6 @@ namespace Map.Online.Api.Models.MasterData
         public List<Vendor.Vendor> Vendors { get; set; }
         public List<XMLTypes> XMLTypes { get; set; }
         public List<XMLFields> XMLFields { get; set; }
+        public List<PositiveNegativeData> PositiveNegativeData { get; set; }
     }
 }

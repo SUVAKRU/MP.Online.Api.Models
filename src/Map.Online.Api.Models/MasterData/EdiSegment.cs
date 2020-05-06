@@ -17,5 +17,6 @@ namespace Map.Online.Api.Models.MasterData
         public bool IsLastSegment { get; set; }
         public int OrderSequence { get; set; }
         public string ClientType { get; set; }
+        public bool IsFirstDetailItem { get; set; }
     }
 }

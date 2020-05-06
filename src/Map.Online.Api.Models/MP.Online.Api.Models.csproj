@@ -83,6 +83,7 @@
     <Compile Include="Customer\CommSFTPDetail.cs" />
     <Compile Include="Customer\CustomerBatchingDetail.cs" />
     <Compile Include="Customer\CustomerInvoice.cs" />
+    <Compile Include="Customer\CustomerPositiveNegaiveTransDetails.cs" />
     <Compile Include="Customer\DashBoard.cs" />
     <Compile Include="Customer\ExportMap.cs" />
     <Compile Include="Customer\TransactionDetails.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="FileEngine\SendInvoiceToMPRequest.cs" />
     <Compile Include="FileEngine\SendPurchaseOrderToEDI.cs" />
     <Compile Include="MasterData\CommonMaster.cs" />
+    <Compile Include="MasterData\CustomerPositiveNegativeData.cs" />
     <Compile Include="MasterData\DateFormats.cs" />
     <Compile Include="MasterData\EdiSegment.cs" />
     <Compile Include="MasterData\FileTypes.cs" />
@@ -155,6 +157,7 @@
     <Compile Include="Responses\Common\MapFieldsResponse.cs" />
     <Compile Include="Responses\Common\POOutputFileFormatResponse.cs" />
     <Compile Include="Responses\Common\RoleMasterResponse.cs" />
+    <Compile Include="Responses\Vendor\RedropLocations.cs" />
     <Compile Include="Responses\Vendor\SaveVendorResponse.cs" />
     <Compile Include="Responses\Vendor\SendJsonResponse.cs" />
     <Compile Include="Responses\Common\SiMapTransactionDetailResponse.cs" />

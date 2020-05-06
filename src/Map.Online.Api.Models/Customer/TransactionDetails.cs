@@ -107,5 +107,6 @@ namespace Map.Online.Api.Models.Customer
         public int NumberOfFooterRows { get; set; }
         public bool Is997Required { get; set; }
         public string PONumber { get; set; }
+        public List<CustomerPositiveNegaiveTransDetails> CustomerPositiveNegaiveTransDetails { get; set; }
     }
 }

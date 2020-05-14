@@ -443,6 +443,7 @@ namespace Map.Online.Api.Models.Customer
         public string InvoiceId { get; set; }
         public string InvoiceLineNumber { get; set; }
         public string ItemNumber { get; set; }
+        public string ItemNumberRef { get; set; }
         public string Description { get; set; }
         public string Unit { get; set; }
         public decimal Quantity { get; set; }

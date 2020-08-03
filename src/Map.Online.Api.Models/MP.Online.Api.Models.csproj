@@ -97,6 +97,7 @@
     <Compile Include="FileEngine\InvoiceTransactionResponse.cs" />
     <Compile Include="FileEngine\MPJsonFieldPosition.cs" />
     <Compile Include="FileEngine\POFileConfiguration.cs" />
+    <Compile Include="FileEngine\SendPurchaseOrderToEDI2.cs" />
     <Compile Include="FileEngine\SiMapTransactionResponse.cs" />
     <Compile Include="FileEngine\TransactionMapDetailResponse.cs" />
     <Compile Include="FileEngine\SendInvoiceToMPRequest.cs" />

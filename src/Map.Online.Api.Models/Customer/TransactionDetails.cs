@@ -56,7 +56,9 @@ namespace Map.Online.Api.Models.Customer
         public string HeaderNameText { get; set; }
         public string DetailNameText { get; set; }
         public int QuantityFormatId { get; set; }
+        public int AmountFormatId { get; set; }
         public string QuantityFormatType { get; set; }
+        public string AmountFormatType { get; set; }
         public string HeaderLineItem { get; set; }
         public string DetailLineItem { get; set; }
         public string HeaderDateFormat { get; set; }

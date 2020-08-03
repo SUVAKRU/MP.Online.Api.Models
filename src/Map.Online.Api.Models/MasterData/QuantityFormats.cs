@@ -12,5 +12,6 @@ namespace Map.Online.Api.Models.MasterData
         public string QuantityFormatType { get; set; }
         public bool IsActive { get; set; }
         public string  value { get; set; }
+        public string IsAmountType { get; set; }
     }
 }

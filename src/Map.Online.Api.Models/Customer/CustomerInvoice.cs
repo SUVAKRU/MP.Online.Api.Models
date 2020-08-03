@@ -395,6 +395,7 @@ namespace Map.Online.Api.Models.Customer
         public string RollupId { get; set; }
         public List<Reference> References { get; set; }
         public List<Location> Locations { get; set; }
+        public string VendorAlternateId { get; set; }
     }
 
     public class EmailAddresses

@@ -60,7 +60,7 @@ namespace Map.Online.Api.Models.FileEngine.PO
         public Account Account { get; set; }
         [XmlElement(ElementName = "References")]
         public References References { get; set; }
-        [XmlArray("PurchaseOrderDetails"), XmlArrayItem(typeof(PurchaseOrderDetail),ElementName = "PurchaseOrderDetail")]
+        [XmlArray("PurchaseOrderDetails"), XmlArrayItem(typeof(PurchaseOrderDetail), ElementName = "PurchaseOrderDetail")]
         public List<PurchaseOrderDetail> PurchaseOrderDetails { get; set; }
     }
     public class Vendor
@@ -137,6 +137,14 @@ namespace Map.Online.Api.Models.FileEngine.PO
         [XmlElement(ElementName = "ReferenceValue")]
         public string ReferenceValue { get; set; }
     }
+
+    public class PurchaseOrderDetailReferences
+    {
+        [XmlElement(ElementName = "ReferenceName")]
+        public string ReferenceName { get; set; }
+        [XmlElement(ElementName = "ReferenceValue")]
+        public string ReferenceValue { get; set; }
+    }
     public class PurchaseOrderDetail
     {
         [XmlElement(ElementName = "PurchaseOrderLineNumber")]
@@ -181,11 +189,11 @@ namespace Map.Online.Api.Models.FileEngine.PO
         public string Weight { get; set; }
         [XmlElement(ElementName = "LineNote")]
         public string LineNote { get; set; }
-        [XmlElement(ElementName = "References")]
-        public References References { get; set; }
+        [XmlElement(ElementName = "PurchaseOrderDetailReferences")]
+        public PurchaseOrderDetailReferences PurchaseOrderDetailReferences { get; set; }
         [XmlElement(ElementName = "PoDetailId")]
         public string PoDetailId { get; set; }
     }
 
-   
+
 }

@@ -189,8 +189,8 @@ namespace Map.Online.Api.Models.FileEngine.PO
         public string Weight { get; set; }
         [XmlElement(ElementName = "LineNote")]
         public string LineNote { get; set; }
-        [XmlElement(ElementName = "PurchaseOrderDetailReferences")]
-        public PurchaseOrderDetailReferences PurchaseOrderDetailReferences { get; set; }
+        [XmlElement(ElementName = "References")]
+        public References References { get; set; }
         [XmlElement(ElementName = "PoDetailId")]
         public string PoDetailId { get; set; }
     }

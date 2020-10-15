@@ -9,29 +9,29 @@ namespace Map.Online.Api.Models.FileEngine.VPO
     public class SendPurchaseOrderToEDI
     {
         public string PurchaseOrderNumber { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public DateTime OrderDate { get; set; }
-        public DateTime RequestedDeliveryDate { get; set; }
-        public DateTime RequestedShipDate { get; set; }
-        public DateTime ActualDeliveryDate { get; set; }
-        public DateTime ActualShipDate { get; set; }
+        public string CreatedDate { get; set; }
+        public string OrderDate { get; set; }
+        public string RequestedDeliveryDate { get; set; }
+        public string RequestedShipDate { get; set; }
+        public string ActualDeliveryDate { get; set; }
+        public string ActualShipDate { get; set; }
         public string TotalQuantity { get; set; }
         public string TotalTax { get; set; }
         public string Amount { get; set; }
         public string Currency { get; set; }
-        public int TermsId { get; set; }
-        public int FreightStatusId { get; set; }
-        public int OrderStatusId { get; set; }
-        public int ProductTypeId { get; set; }
-        public int PurchaseOrderHeaderId { get; set; }
+        public string TermsId { get; set; }
+        public string FreightStatusId { get; set; }
+        public string OrderStatusId { get; set; }
+        public string ProductTypeId { get; set; }
+        public string PurchaseOrderHeaderId { get; set; }
         public string Action { get; set; }
-        public int LineCount { get; set; }
+        public string LineCount { get; set; }
         public string ExternalNote { get; set; }
-        public int VendorId { get; set; }
+        public string VendorId { get; set; }
         public Vendor Vendor { get; set; }
-        public int ConceptId { get; set; }
+        public string ConceptId { get; set; }
         public Concept Concept { get; set; }
-        public int AccountId { get; set; }
+        public string AccountId { get; set; }
         public Account Account { get; set; }
         public PurchaseOrderHeaderReferences PurchaseOrderHeaderReferences { get; set; }
         public PurchaseOrderDetails PurchaseOrderDetails { get; set; }
@@ -40,13 +40,14 @@ namespace Map.Online.Api.Models.FileEngine.VPO
 
     public class VendorReferences
     {
-        public List<object> Reference { get; set; }
+        public string ReferenceName { get; set; }
+        public string ReferenceValue { get; set; }
 
     }
 
     public class Vendor
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string VendorName { get; set; }
         public string VendorAddress1 { get; set; }
         public string VendorAddress2 { get; set; }
@@ -62,13 +63,13 @@ namespace Map.Online.Api.Models.FileEngine.VPO
 
     public class ConceptReferences
     {
-        public List<object> Reference { get; set; }
+        public List<string> Reference { get; set; }
 
     }
 
     public class Concept
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string ParentGroup { get; set; }
         public string ConceptName { get; set; }
         public string ShortName { get; set; }
@@ -80,13 +81,13 @@ namespace Map.Online.Api.Models.FileEngine.VPO
 
     public class AccountReferences
     {
-        public List<object> Reference { get; set; }
+        public List<string> Reference { get; set; }
 
     }
 
     public class Account
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string AccountName { get; set; }
         public string AccountAddress1 { get; set; }
         public string AccountAddress2 { get; set; }
@@ -102,13 +103,15 @@ namespace Map.Online.Api.Models.FileEngine.VPO
 
     public class PurchaseOrderHeaderReferences
     {
-        public List<object> Reference { get; set; }
+        public string ReferenceName { get; set; }
+        public string ReferenceValue { get; set; }
 
     }
 
     public class PurchaseOrderDetailReferences
     {
-        public List<object> Reference { get; set; }
+        public string ReferenceName { get; set; }
+        public string ReferenceValue { get; set; }
 
     }
 
@@ -124,19 +127,19 @@ namespace Map.Online.Api.Models.FileEngine.VPO
         public string ConceptDescription { get; set; }
         public string ConceptUnit { get; set; }
         public string Quantity { get; set; }
-        public object NonSystemQuantityOrdered { get; set; }
+        public string NonSystemQuantityOrdered { get; set; }
         public string Price { get; set; }
-        public object ExtendedPrice { get; set; }
-        public object ExtendedTax { get; set; }
+        public string ExtendedPrice { get; set; }
+        public string ExtendedTax { get; set; }
         public string ConversionFactor { get; set; }
         public string Catch { get; set; }
-        public bool CatchWeightItem { get; set; }
+        public string CatchWeightItem { get; set; }
         public string LotNumber { get; set; }
         public string SubbedItem { get; set; }
         public string Weight { get; set; }
         public string LineNote { get; set; }
         public PurchaseOrderDetailReferences PurchaseOrderDetailReferences { get; set; }
-        public int PoDetailId { get; set; }
+        public string PoDetailId { get; set; }
 
     }
 

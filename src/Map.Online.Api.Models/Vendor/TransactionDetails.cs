@@ -104,5 +104,8 @@ namespace Map.Online.Api.Models.Vendor
         public string POAckFileName { get; set; }
         public List<RedropLocations> RedropLocations { get; set; }
         public string CustomerHeaderText { get; set; }
+        public bool Is997Required { get; set; }
+        public string PONumber { get; set; }
+        public bool IsRemoveCTT { get; set; }
     }
 }

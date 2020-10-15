@@ -18,5 +18,6 @@ namespace Map.Online.Api.Models.MasterData
         public int OrderSequence { get; set; }
         public string ClientType { get; set; }
         public bool IsFirstDetailItem { get; set; }
+        public bool IsMandatorySegment { get; set; }
     }
 }

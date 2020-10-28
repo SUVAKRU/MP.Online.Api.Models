@@ -361,6 +361,7 @@ namespace Map.Online.Api.Models.Customer
     }
     public class Concept
     {
+        //account concept
         public string ConceptId { get; set; }
         public string ConceptName { get; set; }
         public string CustomerCode { get; set; }
@@ -395,7 +396,7 @@ namespace Map.Online.Api.Models.Customer
         public string RollupId { get; set; }
         public List<Reference> References { get; set; }
         public List<Location> Locations { get; set; }
-        public string VendorAlternateId { get; set; }
+        public string AlternateId { get; set; }
     }
 
     public class EmailAddresses
